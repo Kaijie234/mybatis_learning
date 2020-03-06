@@ -7,24 +7,30 @@
     <groupId>tech.kaijie</groupId>
     <artifactId>mybatis_learning01_started</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <!--打包方式-->
     <packaging>jar</packaging>
 
+    <!--导入坐标-->
     <dependencies>
+        <!--Mybatis-->
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
             <version>3.4.5</version>
         </dependency>
+        <!--mysql连接-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.6</version>
         </dependency>
+        <!--单元测试-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.10</version>
         </dependency>
+        <!--日志-->
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
