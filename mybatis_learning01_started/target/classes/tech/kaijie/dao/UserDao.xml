@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="tech.kaijie.dao.UserDao">
+    <!--增加用户-->
+    <insert id="saveUser" parameterType="user">
+        INSERT INTO USER (username, birthday, sex, address) VALUES (#{username}, #{birthday}, #{sex}, #{address})
+    </insert>
+
+    <!--根据id删除用户-->
+    <delete id="deleteUser" parameterType="java.lang.Integer" >
+        DELETE FROM USER WHERE id = #{id}
+    </delete>
+
+    <!--修改用户信息-->
+    <update id="updateUser" parameterType="user">
+        UPDATE USER SET username = #{username}, birthday = #{birthday}, sex = #{sex}, address = #{address} WHERE id = #{id}
+    </update>
+
+    <!--查询所有用户信息-->
+    <select id="findAll" resultType="user">
+        SELECT * FROM USER
+    </select>
+
+    <!--根据用户id查询用户信息-->
+    <select id="findByUserId" parameterType="java.lang.Integer" resultType="user">
+        SELECT * FROM USER WHERE id = #{id}
+    </select>
+
+    <!--根据username进行模糊查询-->
+    <select id="findByUserName" parameterType="java.lang.String" resultType="user">
+        SELECT * FROM USER WHERE username LIKE #{username}
+    </select>
+
+    <!--查询中使用聚合函数-->
+    <select id="findUserTotal" resultType="java.lang.Integer">
+        SELECT COUNT(id) FROM USER
+    </select>
+</mapper>
