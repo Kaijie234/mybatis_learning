@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="tech.kaijie.dao.UserDao">
+    <!--简化编写的sql片段-->
+    <sql id="defaultSql">
+        SELECT * FROM USER
+    </sql>
+
+    <!--动态Sql之if标签-->
+    <select id="findUserByCondition" resultType="user" parameterType="user">
+        SELECT * FROM USER WHERE 1=1
+        <if test="username != null">
+            AND username = #{username}
+        </if>
+        <if test="sex != null">
+            AND sex = #{sex}
+        </if>
+    </select>
+
+    <!--动态Sql之where标签-->
+    <select id="findUserByCondition2" resultType="user" parameterType="user">
+        SELECT * FROM USER
+        <where>
+            <if test="username != null">
+                AND username = #{username}
+            </if>
+            <if test="sex != null">
+                AND sex = #{sex}
+            </if>
+        </where>
+    </select>
+    
+    <!--动态Sql之foreach标签-->
+    <select id="findUserInIds" parameterType="QueryVo" resultType="user">
+        SELECT * FROM USER
+        <where>
+            <if test="ids != null and ids.size() > 0">
+                <foreach collection="ids" open="and id in (" close=")" item="uid" separator=",">
+                    #{uid}
+                </foreach>
+            </if>
+        </where>
+    </select>
+
+    <!--引用sql代码片段进行查询所有操作-->
+    <select id="findAll" resultType="user">
+        <include refid="defaultSql"></include>
+    </select>
+</mapper>

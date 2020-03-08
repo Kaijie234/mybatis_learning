@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="tech.kaijie.dao.AccountDao">
+    <!--定义封装account和user的resultMap-->
+    <resultMap id="accountMap" type="account">
+        <!--主键的标签为id，其余字段为result-->
+        <id property="id" column="aid"></id>
+        <result property="uid" column="uid"></result>
+        <result property="money" column="money"></result>
+
+        <!--一对一的关系映射，配置封装user的内容-->
+        <!--column="uid"表示通过account表的外键uid来获得user表的内容-->
+        <!--javaType一个 Java 类的完全限定名，用于指定封装的javabean-->
+        <association property="user" column="uid" javaType="user">
+            <id property="id" column="id"></id>
+            <result property="username" column="username"></result>
+            <result property="birthday" column="birthday"></result>
+            <result property="sex" column="sex"></result>
+            <result property="address" column="address"></result>
+        </association>
+    </resultMap>
+
+    <!--查询所有账户，同时包含用户名和地址（方式一）-->
+    <select id="findAllAccount1" resultType="accountUser">
+        SELECT a.*, u.`username`, u.`address`
+        FROM account a, USER u
+        WHERE a.`UID`=u.`id`
+    </select>
+
+    <!--查询所有账户，同时包含用户名和地址（方式二）-->
+    <select id="findAllAccount2" resultMap="accountMap">
+        SELECT u.*, a.id AS aid, a.uid, a.money
+        FROM account a, USER u
+        WHERE a.`UID`=u.`id`
+    </select>
+
+</mapper>

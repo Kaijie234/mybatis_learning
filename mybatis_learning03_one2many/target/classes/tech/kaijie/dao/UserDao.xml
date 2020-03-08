@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="tech.kaijie.dao.UserDao">
+    <!--定义封装包含Account的User的resultMap-->
+    <resultMap id="userMap" type="user">
+        <id property="id" column="id"></id>
+        <result property="username" column="username"></result>
+        <result property="birthday" column="birthday"></result>
+        <result property="sex" column="sex"></result>
+        <result property="address" column="address"></result>
+
+        <!--配置user对象中account集合的映射-->
+        <!--与association不同，这里使用的ofType属性-->
+        <collection property="accounts" ofType="account">
+            <!--主键为id标签， 其余为result-->
+            <id property="id" column="id"></id>
+            <result property="uid" column="uid"></result>
+            <result property="money" column="money"></result>
+        </collection>
+    </resultMap>
+
+    <!--查询所有用户信息，包括其所有的账户信息-->
+    <select id="findAll" resultMap="userMap">
+        select * from user u
+        LEFT OUTER JOIN account a
+        ON u.`id` = a.`UID`
+    </select>
+</mapper>
