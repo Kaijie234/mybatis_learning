@@ -10,7 +10,8 @@
         <option value="$PROJECT_DIR$/mybatis_learning03_one2many/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis_learning05_lazyload/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis_learning06_cache/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis_learning07_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_learning07_annotation01_CRUD/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_learning08_annotation02_multiTableOperation/pom.xml" />
       </list>
     </option>
   </component>

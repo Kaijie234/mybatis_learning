@@ -13,7 +13,8 @@
         <module name="mybatis_learning04_many2many" />
         <module name="mybatis_learning05_lazyload" />
         <module name="mybatis_learning06_cache" />
-        <module name="mybatis_learning07_annotation" />
+        <module name="mybatis_learning07_annotation01_CRUD" />
+        <module name="mybatis_learning08_annotation02_multiTableOperation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +27,8 @@
       <module name="mybatis_learning05_lazyload" target="1.5" />
       <module name="mybatis_learning06_cache" target="1.5" />
       <module name="mybatis_learning07_annotation" target="1.5" />
+      <module name="mybatis_learning07_annotation01_CRUD" target="1.5" />
+      <module name="mybatis_learning08_annotation02_multiTableOperation" target="1.5" />
       <module name="mybatis_learning_cache" target="1.5" />
     </bytecodeTargetLevel>
   </component>
