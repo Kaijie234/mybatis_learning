@@ -4,6 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/mybatis_learning.iml" filepath="$PROJECT_DIR$/.idea/mybatis_learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis_learning01_started/mybatis_learning01_started.iml" filepath="$PROJECT_DIR$/mybatis_learning01_started/mybatis_learning01_started.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_learning02_dynamicSql/mybatis_learning02_dynamicSql.iml" filepath="$PROJECT_DIR$/mybatis_learning02_dynamicSql/mybatis_learning02_dynamicSql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_learning03_one2many/mybatis_learning03_one2many.iml" filepath="$PROJECT_DIR$/mybatis_learning03_one2many/mybatis_learning03_one2many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_learning04_many2many/mybatis_learning04_many2many.iml" filepath="$PROJECT_DIR$/mybatis_learning04_many2many/mybatis_learning04_many2many.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_learning05_lazyload/mybatis_learning05_lazyload.iml" filepath="$PROJECT_DIR$/mybatis_learning05_lazyload/mybatis_learning05_lazyload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_learning06_cache/mybatis_learning06_cache.iml" filepath="$PROJECT_DIR$/mybatis_learning06_cache/mybatis_learning06_cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_learning07_annotation/mybatis_learning07_annotation.iml" filepath="$PROJECT_DIR$/mybatis_learning07_annotation/mybatis_learning07_annotation.iml" />
     </modules>
   </component>
 </project>

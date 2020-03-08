@@ -7,10 +7,26 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis_learning01_started" />
+        <module name="mybatis_learning02_dynamicSql" />
+        <module name="mybatis_learning03_multi_table_queries" />
+        <module name="mybatis_learning03_one2many" />
+        <module name="mybatis_learning04_many2many" />
+        <module name="mybatis_learning05_lazyload" />
+        <module name="mybatis_learning06_cache" />
+        <module name="mybatis_learning07_annotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="annotation" target="1.5" />
       <module name="mybatis_learning01_started" target="1.5" />
+      <module name="mybatis_learning02_dynamicSql" target="1.5" />
+      <module name="mybatis_learning03_multi_table_queries" target="1.5" />
+      <module name="mybatis_learning03_one2many" target="1.5" />
+      <module name="mybatis_learning04_many2many" target="1.5" />
+      <module name="mybatis_learning05_lazyload" target="1.5" />
+      <module name="mybatis_learning06_cache" target="1.5" />
+      <module name="mybatis_learning07_annotation" target="1.5" />
+      <module name="mybatis_learning_cache" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

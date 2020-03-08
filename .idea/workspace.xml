@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b98beb2-feb5-4b10-85ab-ef60c595dc45" name="Default" comment="mybatis_learning01" />
+    <list default="true" id="1b98beb2-feb5-4b10-85ab-ef60c595dc45" name="Default" comment="mybatis_learning01">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/mybatis_learning01_started/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis_learning02_dynamicSql/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis_learning03_multi_table_queries/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis_learning04_many2many/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis_learning03_one2many/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis_learning05_lazyload/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis_learning_cache/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis_learning06_cache/target/" />
+    <ignored path="$PROJECT_DIR$/annotation/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis_learning07_annotation/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,106 +26,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/pom.xml">
+      <file leaf-file-name="UserDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_learning06_cache/src/main/resources/tech/kaijie/dao/UserDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="491">
+              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <marker date="1583640617050" expanded="true" signature="328:443" ph="UPDATE USER... " />
+                <marker date="1583640617050" expanded="true" signature="531:549" ph="SELECT * FRO... USER" />
+                <marker date="1583640617050" expanded="true" signature="872:907" ph="SELECT * FRO... USER" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstLevelCacheTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_learning06_cache/src/test/java/tech/kaijie/test/FirstLevelCacheTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10">
+              <caret line="122" column="19" lean-forward="false" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecondLevelCacheTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_learning06_cache/src/test/java/tech/kaijie/test/SecondLevelCacheTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="55" column="11" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mybatis_learning07_annotation/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jdbcConfig.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_learning06_cache/src/main/resources/jdbcConfig.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqlMapConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_learning06_cache/src/main/resources/SqlMapConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_learning06_cache/src/main/java/tech/kaijie/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/main/java/tech/kaijie/domain/User.java">
+        <entry file="file://$PROJECT_DIR$/mybatis_learning06_cache/src/main/java/tech/kaijie/domain/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-396">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#857#858#0" expanded="true" />
-                <element signature="e#887#888#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SqlMapConfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/main/resources/SqlMapConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="712">
-              <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+            <state relative-caret-position="231">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/main/resources/tech/kaijie/dao/UserDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="17" column="122" lean-forward="false" selection-start-line="17" selection-start-column="122" selection-end-line="17" selection-end-column="122" />
-              <folding>
-                <marker date="1583506282446" expanded="true" signature="280:385" ph="INSERT INTO USER... " />
-                <marker date="1583506282446" expanded="true" signature="493:526" ph="DELETE FROM USER... " />
-                <marker date="1583506282446" expanded="true" signature="618:733" ph="UPDATE USER... " />
-                <marker date="1583506282446" expanded="true" signature="821:839" ph="SELECT * FRO... USER" />
-                <marker date="1583506282446" expanded="true" signature="970:1005" ph="SELECT * FRO... USER" />
-                <marker date="1583506282446" expanded="true" signature="1141:1191" ph="SELECT * FRO... USER" />
-                <marker date="1583506282446" expanded="true" signature="1299:1325" ph="SELECT COUNT... USER" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jdbcConfig.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/main/resources/jdbcConfig.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MybatisTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/test/java/tech/kaijie/test/MybatisTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="81" column="9" lean-forward="false" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/main/java/tech/kaijie/dao/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -148,6 +144,43 @@
         <option value="$PROJECT_DIR$/mybatis_learning01_started/src/main/java/tech/kaijie/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/mybatis_learning01_started/src/main/resources/tech/kaijie/dao/UserDao.xml" />
         <option value="$PROJECT_DIR$/mybatis_learning01_started/src/test/java/tech/kaijie/test/MybatisTest.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning02_dynamicSql/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_learning02_dynamicSql/src/main/java/tech/kaijie/domain/QueryVo.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning02_dynamicSql/src/main/resources/tech/kaijie/dao/UserDao.xml" />
+        <option value="$PROJECT_DIR$/mybatis_learning02_dynamicSql/src/main/java/tech/kaijie/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning02_dynamicSql/src/test/java/tech/kaijie/test/MybatisTest.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning03_multi_table_queries/src/main/java/tech/kaijie/domain/AccountUser.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning03_multi_table_queries/src/test/java/tech/kaijie/test/MybatisTest.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning03_multi_table_queries/src/main/java/tech/kaijie/dao/AccountDao.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning03_multi_table_queries/src/main/java/tech/kaijie/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning03_multi_table_queries/src/test/java/tech/kaijie/test/UserTest.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning03_multi_table_queries/src/main/java/tech/kaijie/domain/User.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning03_multi_table_queries/src/main/java/tech/kaijie/domain/Account.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning03_multi_table_queries/src/main/resources/tech/kaijie/dao/AccountDao.xml" />
+        <option value="$PROJECT_DIR$/mybatis_learning03_multi_table_queries/src/test/java/tech/kaijie/test/AccountTest.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning03_multi_table_queries/src/main/resources/tech/kaijie/dao/UserDao.xml" />
+        <option value="$PROJECT_DIR$/mybatis_learning04_many2many/src/main/java/tech/kaijie/dao/RoleDao.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning04_many2many/src/main/resources/tech/kaijie/dao/RoleDao.xml" />
+        <option value="$PROJECT_DIR$/mybatis_learning04_many2many/src/test/java/tech/kaijie/test/RoleTest.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning04_many2many/src/main/java/tech/kaijie/domain/Role.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning04_many2many/src/main/java/tech/kaijie/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning04_many2many/src/main/java/tech/kaijie/domain/User.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning04_many2many/src/test/java/tech/kaijie/test/UserTest1.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning04_many2many/src/main/resources/tech/kaijie/dao/UserDao.xml" />
+        <option value="$PROJECT_DIR$/mybatis_learning05_lazyload/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/mybatis_learning05_lazyload/src/test/java/tech/kaijie/test/UserTest.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning05_lazyload/src/main/java/tech/kaijie/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning05_lazyload/src/main/resources/tech/kaijie/dao/UserDao.xml" />
+        <option value="$PROJECT_DIR$/mybatis_learning05_lazyload/src/main/java/tech/kaijie/dao/AccountDao.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning05_lazyload/src/main/resources/tech/kaijie/dao/AccountDao.xml" />
+        <option value="$PROJECT_DIR$/mybatis_learning05_lazyload/src/main/java/tech/kaijie/domain/User.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning05_lazyload/src/test/java/tech/kaijie/test/AccountTest.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning06_cache/src/main/java/tech/kaijie/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning06_cache/src/test/java/tech/kaijie/test/UserTest.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning06_cache/src/test/java/tech/kaijie/test/FirstLevelCacheTest.java" />
+        <option value="$PROJECT_DIR$/mybatis_learning06_cache/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/mybatis_learning06_cache/src/main/resources/tech/kaijie/dao/UserDao.xml" />
+        <option value="$PROJECT_DIR$/mybatis_learning06_cache/src/test/java/tech/kaijie/test/SecondLevelCacheTest.java" />
       </list>
     </option>
   </component>
@@ -166,7 +199,6 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="y" value="66" />
     <option name="width" value="936" />
     <option name="height" value="1038" />
   </component>
@@ -195,170 +227,20 @@
               <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_learning01_started" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_learning01_started" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_learning01_started" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_learning01_started" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_learning01_started" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_learning01_started" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
-              <item name="kaijie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_learning01_started" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
-              <item name="kaijie" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_learning01_started" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
-              <item name="kaijie" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_learning01_started" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_learning01_started" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_learning01_started" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
-              <item name="kaijie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_learning01_started" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
-              <item name="kaijie" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_learning01_started" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_learning01_started" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_learning01_started" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_learning01_started" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
-              <item name="kaijie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mybatis_learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mybatis_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_learning01_started" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tech" type="462c0819:PsiDirectoryNode" />
-              <item name="kaijie" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/Java/day04_eesy_01lazy" />
     <property name="jdk.selected.JAVA_MODULE" value="9.0" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -366,6 +248,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tech.kaijie.test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\mybatis_learning\mybatis_learning01_started\src\main\resources" />
     </key>
@@ -382,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.testUpdateUser">
+  <component name="RunManager" selected="JUnit.SecondLevelCacheTest.testFirstLevelCache">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -404,19 +289,19 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="MybatisTest.testDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstLevelCacheTest.testClearCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tech.kaijie.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="mybatis_learning01_started" />
+      <module name="mybatis_learning06_cache" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tech.kaijie.test" />
-      <option name="MAIN_CLASS_NAME" value="tech.kaijie.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testDeleteUser" />
+      <option name="MAIN_CLASS_NAME" value="tech.kaijie.test.FirstLevelCacheTest" />
+      <option name="METHOD_NAME" value="testClearCache" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -429,19 +314,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MybatisTest.testFindByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstLevelCacheTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tech.kaijie.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="mybatis_learning01_started" />
+      <module name="mybatis_learning06_cache" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tech.kaijie.test" />
-      <option name="MAIN_CLASS_NAME" value="tech.kaijie.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testFindByUserId" />
+      <option name="MAIN_CLASS_NAME" value="tech.kaijie.test.FirstLevelCacheTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -454,19 +339,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MybatisTest.testFindByUserName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstLevelCacheTest.testFirstLevelCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tech.kaijie.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="mybatis_learning01_started" />
+      <module name="mybatis_learning06_cache" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tech.kaijie.test" />
-      <option name="MAIN_CLASS_NAME" value="tech.kaijie.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testFindByUserName" />
+      <option name="MAIN_CLASS_NAME" value="tech.kaijie.test.FirstLevelCacheTest" />
+      <option name="METHOD_NAME" value="testFirstLevelCache" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -479,19 +364,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MybatisTest.testFindUserTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstLevelCacheTest.testFirstLevelCache2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tech.kaijie.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="mybatis_learning01_started" />
+      <module name="mybatis_learning06_cache" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tech.kaijie.test" />
-      <option name="MAIN_CLASS_NAME" value="tech.kaijie.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testFindUserTotal" />
+      <option name="MAIN_CLASS_NAME" value="tech.kaijie.test.FirstLevelCacheTest" />
+      <option name="METHOD_NAME" value="testFirstLevelCache2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -504,19 +389,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MybatisTest.testUpdateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecondLevelCacheTest.testFirstLevelCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tech.kaijie.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="mybatis_learning01_started" />
+      <module name="mybatis_learning06_cache" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tech.kaijie.test" />
-      <option name="MAIN_CLASS_NAME" value="tech.kaijie.test.MybatisTest" />
-      <option name="METHOD_NAME" value="testUpdateUser" />
+      <option name="MAIN_CLASS_NAME" value="tech.kaijie.test.SecondLevelCacheTest" />
+      <option name="METHOD_NAME" value="testFirstLevelCache" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -590,19 +475,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MybatisTest.testDeleteUser" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MybatisTest.testFindByUserId" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MybatisTest.testFindByUserName" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MybatisTest.testFindUserTotal" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MybatisTest.testUpdateUser" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FirstLevelCacheTest.testFirstLevelCache" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FirstLevelCacheTest.testFindAll" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FirstLevelCacheTest.testFirstLevelCache2" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FirstLevelCacheTest.testClearCache" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SecondLevelCacheTest.testFirstLevelCache" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MybatisTest.testUpdateUser" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MybatisTest.testFindUserTotal" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MybatisTest.testFindByUserName" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MybatisTest.testFindByUserId" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MybatisTest.testDeleteUser" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SecondLevelCacheTest.testFirstLevelCache" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FirstLevelCacheTest.testClearCache" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FirstLevelCacheTest.testFirstLevelCache2" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FirstLevelCacheTest.testFirstLevelCache" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FirstLevelCacheTest.testFindAll" />
       </list>
     </recent_temporary>
   </component>
@@ -621,7 +506,8 @@
       <updated>1583469266480</updated>
       <workItem from="1583469267924" duration="1273000" />
       <workItem from="1583470592777" duration="1817000" />
-      <workItem from="1583501295916" duration="5743000" />
+      <workItem from="1583501295916" duration="17136000" />
+      <workItem from="1583633869711" duration="6718000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1583488527575</created>
@@ -655,39 +541,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MybatisTest_testDeleteUser - 2020.03.06 at 22h 28m 31s.xml">
-      <configuration name="MybatisTest.testDeleteUser" configurationId="JUnit" />
+    <history-entry file="SecondLevelCacheTest_testFirstLevelCache - 2020.03.08 at 12h 10m 22s.xml">
+      <configuration name="SecondLevelCacheTest.testFirstLevelCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testFindByUserId - 2020.03.06 at 22h 36m 31s.xml">
-      <configuration name="MybatisTest.testFindByUserId" configurationId="JUnit" />
+    <history-entry file="UserTest_testClearCache - 2020.03.08 at 12h 01m 04s.xml">
+      <configuration name="UserTest.testClearCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testFindByUserName - 2020.03.06 at 22h 40m 12s.xml">
-      <configuration name="MybatisTest.testFindByUserName" configurationId="JUnit" />
+    <history-entry file="UserTest_testClearCache - 2020.03.08 at 12h 02m 21s.xml">
+      <configuration name="UserTest.testClearCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testFindByUserName - 2020.03.06 at 22h 41m 07s.xml">
-      <configuration name="MybatisTest.testFindByUserName" configurationId="JUnit" />
+    <history-entry file="UserTest_testFindAll - 2020.03.08 at 11h 54m 07s.xml">
+      <configuration name="UserTest.testFindAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testFindUserTotal - 2020.03.06 at 22h 43m 42s.xml">
-      <configuration name="MybatisTest.testFindUserTotal" configurationId="JUnit" />
+    <history-entry file="UserTest_testFirstLevelCache - 2020.03.08 at 11h 54m 23s.xml">
+      <configuration name="UserTest.testFirstLevelCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testFindUserTotal - 2020.03.06 at 22h 45m 34s.xml">
-      <configuration name="MybatisTest.testFindUserTotal" configurationId="JUnit" />
+    <history-entry file="UserTest_testFirstLevelCache - 2020.03.08 at 11h 56m 22s.xml">
+      <configuration name="UserTest.testFirstLevelCache" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testUpdateUser - 2020.03.06 at 22h 47m 09s.xml">
-      <configuration name="MybatisTest.testUpdateUser" configurationId="JUnit" />
+    <history-entry file="UserTest_testFirstLevelCache2 - 2020.03.08 at 11h 55m 02s.xml">
+      <configuration name="UserTest.testFirstLevelCache2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testUpdateUser - 2020.03.06 at 22h 49m 11s.xml">
-      <configuration name="MybatisTest.testUpdateUser" configurationId="JUnit" />
+    <history-entry file="UserTest_testFirstLevelCache2 - 2020.03.08 at 11h 56m 26s.xml">
+      <configuration name="UserTest.testFirstLevelCache2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testUpdateUser - 2020.03.06 at 22h 50m 30s.xml">
-      <configuration name="MybatisTest.testUpdateUser" configurationId="JUnit" />
+    <history-entry file="UserTest_testFirstLevelCache2 - 2020.03.08 at 11h 57m 31s.xml">
+      <configuration name="UserTest.testFirstLevelCache2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisTest_testUpdateUser - 2020.03.06 at 22h 52m 04s.xml">
-      <configuration name="MybatisTest.testUpdateUser" configurationId="JUnit" />
+    <history-entry file="UserTest_testFirstLevelCache2 - 2020.03.08 at 11h 59m 36s.xml">
+      <configuration name="UserTest.testFirstLevelCache2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8833000" />
+    <option name="totallyTimeSpent" value="26944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -695,20 +581,20 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5032189" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.4967811" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5005701" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5032189" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.4967811" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51083237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.49785408" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18401287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24356224" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40369087" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -756,7 +642,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -765,142 +651,448 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/test/java/test/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/test/java/Test.java" />
-    <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/test/java/Test.java" />
-    <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/test/java/test/TestTest.java" />
-    <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="17" column="95" lean-forward="false" selection-start-line="17" selection-start-column="95" selection-end-line="17" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/test/java/test/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/main/resources/jdbcConfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/main/java/tech/kaijie/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/test/java/tech/kaijie/test/MybatisTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="81" column="9" lean-forward="false" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/main/resources/SqlMapConfig.xml">
+    <entry file="file://$PROJECT_DIR$/mybatis_learning02_dynamicSql/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        <state relative-caret-position="392">
+          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/main/resources/tech/kaijie/dao/UserDao.xml">
+    <entry file="file://$PROJECT_DIR$/mybatis_learning02_dynamicSql/mybatis_learning02_dynamicSql.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="17" column="122" lean-forward="false" selection-start-line="17" selection-start-column="122" selection-end-line="17" selection-end-column="122" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning02_dynamicSql/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning02_dynamicSql/src/main/java/tech/kaijie/domain/QueryVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning02_dynamicSql/src/main/resources/tech/kaijie/dao/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning02_dynamicSql/src/main/java/tech/kaijie/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-235">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning02_dynamicSql/src/main/java/tech/kaijie/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/main/java/tech/kaijie/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning03_one2many/src/main/java/tech/kaijie/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning03_one2many/src/main/resources/tech/kaijie/dao/AccountDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning03_one2many/src/main/java/tech/kaijie/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173">
+          <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning03_one2many/src/main/resources/tech/kaijie/dao/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning03_one2many/src/main/java/tech/kaijie/domain/AccountUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning03_one2many/src/main/java/tech/kaijie/dao/AccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning03_one2many/src/main/java/tech/kaijie/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning04_many2many/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning03_one2many/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning02_dynamicSql/src/test/java/tech/kaijie/test/MybatisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1089">
+          <caret line="83" column="5" lean-forward="false" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning03_one2many/src/test/java/tech/kaijie/test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="59" column="5" lean-forward="false" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning04_many2many/src/main/java/tech/kaijie/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="27" />
           <folding>
-            <marker date="1583506282446" expanded="true" signature="280:385" ph="INSERT INTO USER... " />
-            <marker date="1583506282446" expanded="true" signature="493:526" ph="DELETE FROM USER... " />
-            <marker date="1583506282446" expanded="true" signature="618:733" ph="UPDATE USER... " />
-            <marker date="1583506282446" expanded="true" signature="821:839" ph="SELECT * FRO... USER" />
-            <marker date="1583506282446" expanded="true" signature="970:1005" ph="SELECT * FRO... USER" />
-            <marker date="1583506282446" expanded="true" signature="1141:1191" ph="SELECT * FRO... USER" />
-            <marker date="1583506282446" expanded="true" signature="1299:1325" ph="SELECT COUNT... USER" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#401#402#0" expanded="false" />
+            <element signature="e#435#436#0" expanded="false" />
+            <element signature="e#469#470#0" expanded="false" />
+            <element signature="e#498#499#0" expanded="false" />
+            <element signature="e#543#544#0" expanded="false" />
+            <element signature="e#579#580#0" expanded="false" />
+            <element signature="e#614#615#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="false" />
+            <element signature="e#693#694#0" expanded="false" />
+            <element signature="e#733#734#0" expanded="false" />
+            <element signature="e#768#769#0" expanded="false" />
+            <element signature="e#799#800#0" expanded="false" />
+            <element signature="e#847#848#0" expanded="false" />
+            <element signature="e#887#888#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning03_one2many/src/test/java/tech/kaijie/test/AccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="65" column="34" lean-forward="false" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning04_many2many/src/main/java/tech/kaijie/dao/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning04_many2many/src/main/resources/tech/kaijie/dao/RoleDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <marker date="1583581276228" expanded="true" signature="1026:1186" ph="select u.*,r... role" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning04_many2many/src/test/java/tech/kaijie/test/RoleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="63" column="37" lean-forward="false" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning04_many2many/src/test/java/tech/kaijie/test/UserTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning04_many2many/src/main/java/tech/kaijie/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="59" column="34" lean-forward="false" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1118#1119#0" expanded="false" />
+            <element signature="e#1164#1165#0" expanded="false" />
+            <element signature="e#1198#1199#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning04_many2many/src/main/java/tech/kaijie/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning04_many2many/src/main/resources/tech/kaijie/dao/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <marker date="1583634426958" expanded="true" signature="954:1114" ph="SELECT * FRO... USER" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning05_lazyload/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis_learning01_started/src/main/java/tech/kaijie/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        <state relative-caret-position="33">
+          <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning05_lazyload/src/main/resources/tech/kaijie/dao/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+          <folding>
+            <marker date="1583638629048" expanded="true" signature="2237:2255" ph="SELECT * FRO... USER" />
+            <marker date="1583638629048" expanded="true" signature="2383:2418" ph="SELECT * FRO... USER" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning05_lazyload/src/main/java/tech/kaijie/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning05_lazyload/src/main/java/tech/kaijie/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning05_lazyload/src/main/java/tech/kaijie/dao/AccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning05_lazyload/src/main/resources/tech/kaijie/dao/AccountDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <marker date="1583638897935" expanded="true" signature="744:784" ph="select * fro... account" />
+            <marker date="1583638897935" expanded="true" signature="891:912" ph="select * fro... account" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning05_lazyload/src/test/java/tech/kaijie/test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="60" column="7" lean-forward="false" selection-start-line="60" selection-start-column="7" selection-end-line="62" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning05_lazyload/src/test/java/tech/kaijie/test/AccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="62" column="21" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning_cache/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning05_lazyload/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning05_lazyload/src/main/java/tech/kaijie/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="74" column="48" lean-forward="false" selection-start-line="74" selection-start-column="48" selection-end-line="74" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning06_cache/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning06_cache/src/main/java/tech/kaijie/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning06_cache/src/main/java/tech/kaijie/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning06_cache/src/test/java/tech/kaijie/test/FirstLevelCacheTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="122" column="19" lean-forward="false" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning06_cache/src/main/resources/jdbcConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning06_cache/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning06_cache/src/main/resources/tech/kaijie/dao/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <marker date="1583640617050" expanded="true" signature="328:443" ph="UPDATE USER... " />
+            <marker date="1583640617050" expanded="true" signature="531:549" ph="SELECT * FRO... USER" />
+            <marker date="1583640617050" expanded="true" signature="872:907" ph="SELECT * FRO... USER" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning06_cache/src/test/java/tech/kaijie/test/SecondLevelCacheTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="55" column="11" lean-forward="false" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/annotation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_learning07_annotation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
