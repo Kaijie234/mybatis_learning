@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b98beb2-feb5-4b10-85ab-ef60c595dc45" name="Default" comment="mybatis_learning01">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="1b98beb2-feb5-4b10-85ab-ef60c595dc45" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/mybatis_learning01_started/target/" />
@@ -507,7 +504,7 @@
       <workItem from="1583469267924" duration="1273000" />
       <workItem from="1583470592777" duration="1817000" />
       <workItem from="1583501295916" duration="17136000" />
-      <workItem from="1583633869711" duration="6718000" />
+      <workItem from="1583633869711" duration="6733000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1583488527575</created>
@@ -537,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583506429979</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mybatis_learning">
+      <created>1583640987612</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583640987612</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -573,7 +577,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26944000" />
+    <option name="totallyTimeSpent" value="26959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -638,7 +642,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="mybatis_learning01" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis_learning01" />
+    <MESSAGE value="mybatis_learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis_learning" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
